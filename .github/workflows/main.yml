@@ -37,7 +37,7 @@ jobs:
           version: 12.6.8
           runtime: node@26
           cache: true
-      - make setup
-      - make lint
-      - make test
+      - run: make setup
+      - run: make lint
+      - run: make test
       # END
