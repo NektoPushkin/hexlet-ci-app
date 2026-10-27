@@ -40,5 +40,5 @@ jobs:
       - run: make setup
       - run: make lint
       - run: make test
-      - uses: hexlet-components/hello-from-hexlet-action
+      - uses: hexlet-components/hello-from-hexlet-action@8b90621c279a51d464f039bf7957945940f0628d
       # END
